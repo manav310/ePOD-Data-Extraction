@@ -73,9 +73,3 @@ This project showcases the potential of OCR and NLP in automating data extractio
 
 ## Acknowledgements
 Special thanks to the eShipz team for their guidance and support throughout this project.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions or feedback, please contact [Your Name] at [your.email@example.com].
