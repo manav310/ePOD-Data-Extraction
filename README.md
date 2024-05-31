@@ -17,17 +17,6 @@ This project focuses on extracting essential data from electronic proof of deliv
 - **Image Processing**: OpenCV
 - **Data Manipulation**: Pandas
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/epod-data-extraction.git
-    cd epod-data-extraction
-    ```
-2. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 1. **Dataset Preparation**:
     - Place your ePOD images in the `data/` directory.
@@ -54,12 +43,6 @@ This project focuses on extracting essential data from electronic proof of deliv
       ```bash
       python export_data.py
       ```
-
-## Project Structure
-- `data/`: Directory containing the ePOD images.
-- `scripts/`: Directory containing the preprocessing, barcode detection, OCR, and data extraction scripts.
-- `output/`: Directory where the extracted data and results are stored.
-- `requirements.txt`: File listing the required Python packages.
 
 ## Results
 The project demonstrated the feasibility of automating the extraction of essential data from ePOD documents. docTR was identified as the preferred OCR library due to its superior performance on various document formats.
