@@ -51,7 +51,6 @@ This project focuses on extracting essential data from electronic proof of deliv
   - `image_classification.ipynb`: Notebook for classifying images and detecting barcodes.
   - `data_extraction.ipynb`: Notebook for performing OCR and extracting data.
 - `requirements.txt`: File listing the required Python packages.
-- `output/`: Directory where the extracted data and results are stored.
 
 ## Results
 The project demonstrated the feasibility of automating the extraction of essential data from ePOD documents. docTR was identified as the preferred OCR library due to its superior performance on various document formats.
