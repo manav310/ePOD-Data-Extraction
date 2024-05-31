@@ -17,32 +17,41 @@ This project focuses on extracting essential data from electronic proof of deliv
 - **Image Processing**: OpenCV
 - **Data Manipulation**: Pandas
 
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/epod-data-extraction.git
+    cd epod-data-extraction
+    ```
+2. Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ## Usage
 1. **Dataset Preparation**:
     - Place your ePOD images in the `data/` directory.
-    - Run the preprocessing script:
-      ```bash
-      python preprocess_data.py
-      ```
+    - Run the `epod_image_installer.ipynb` notebook to preprocess the images.
 2. **Barcode Detection**:
-    - Execute the barcode detection script:
-      ```bash
-      python detect_barcodes.py
-      ```
+    - Execute the `image_classification.ipynb` notebook to classify and detect barcodes.
 3. **OCR and Data Extraction**:
-    - Perform OCR on the images:
-      ```bash
-      python perform_ocr.py
-      ```
-    - Extract key-value pairs from the text:
-      ```bash
-      python extract_information.py
-      ```
+    - Perform OCR on the images using the `data_extraction.ipynb` notebook.
 4. **Export Data**:
-    - Export the extracted data to an Excel file:
-      ```bash
-      python export_data.py
-      ```
+    - Export the extracted data to an Excel file by running the final cells in the `data_extraction.ipynb` notebook.
+
+## Project Structure
+- `data/`: Directory containing the ePOD images.
+- `notebooks/`: Directory containing the Jupyter notebooks for preprocessing, barcode detection, and data extraction.
+  - `epod_image_installer.ipynb`: Notebook for preprocessing ePOD images.
+  - `image_classification.ipynb`: Notebook for classifying images and detecting barcodes.
+  - `data_extraction.ipynb`: Notebook for performing OCR and extracting data.
+- `requirements.txt`: File listing the required Python packages.
+- `output/`: Directory where the extracted data and results are stored.
 
 ## Results
 The project demonstrated the feasibility of automating the extraction of essential data from ePOD documents. docTR was identified as the preferred OCR library due to its superior performance on various document formats.
