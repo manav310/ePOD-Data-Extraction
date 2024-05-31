@@ -1,0 +1,11 @@
+numpy
+opencv-python
+pandas
+pytesseract
+python-docx
+scikit-image
+scikit-learn
+matplotlib
+dynamsoft-barcode-reader
+docTR
+pytorch
